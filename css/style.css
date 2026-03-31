@@ -1,13 +1,45 @@
+:root{
+    
+    /*Brand colors*/
+    --blueLight-300: #AAD9F3;
+    --blueNeutral-500: #729CA8;
+    --blueDark-700: #5A79A7;
+    --blueDarker-800: #4A6894;
+    --greenLight: #9CBB99;
+
+    /*Neutral colors*/
+    --primaryWhiteNeutral: #e2edf8;
+    --secondaryWhiteNeutral: #d8e4f3;
+
+    --LightGray: #D1D9E6;
+    --MediumGray: #6B7280;
+    --DarkGray: #1F2937;
+    --Black: #111827;
+
+    --gray-100: #f8f9fa; /* Very light */
+    --gray-300: #dee2e6;
+    --gray-500: #adb5bd; /* Medium light */
+    --gray-700: #495057;
+    --gray-900: #212529; /* Very dark */
+
+    /*Vibrant colors, contraste*/
+    --redVibrant: #C42507;
+    --yellowVibrant: #FEC715;
+
+}
+
 body{
     font-family: 'GFS Didot', 'Sora', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-optical-sizing: auto;
+    font-size: 1em;
+    background: var(--primaryWhiteNeutral);
 }
 
 /* Navbar geral */
 .navbar-menu {
-    background: linear-gradient(90deg, #8A2BE2, #5f0dbb);
+    background: linear-gradient(90deg, var(--blueLight-300), var(--blueDark-700));
     padding: 15px 0;
 }
 
