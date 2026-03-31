@@ -1,0 +1,47 @@
+body{
+    font-family: 'GFS Didot', 'Sora', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-optical-sizing: auto;
+}
+
+/* Navbar geral */
+.navbar-menu {
+    background: linear-gradient(90deg, #8A2BE2, #5f0dbb);
+    padding: 15px 0;
+}
+
+/* Logo */
+.navbar-menu .navbar-brand {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Links */
+.navbar-menu .nav-link {
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* Efeito hover */
+.navbar-menu .nav-link::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transition: 0.4s;
+}
+
+.navbar-menu .nav-link:hover::after {
+    width: 100%;
+}
+
+.navbar-menu .nav-link:hover {
+    color: #ddd;
+}
