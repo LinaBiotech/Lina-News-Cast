@@ -26,14 +26,15 @@
     --redVibrant: #C42507;
     --yellowVibrant: #FEC715;
 
+    --font-letter: "Hedvig Letters Serif"
 }
 
 body{
-    font-family: 'GFS Didot', 'Sora', sans-serif;
+    font-family: "Hedvig Letters Serif", 'GFS Didot', 'Sora', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-optical-sizing: auto;
-    font-size: 1em;
+    font-size: 1rem;
     background: var(--primaryWhiteNeutral);
 }
 
@@ -76,4 +77,23 @@ body{
 
 .navbar-menu .nav-link:hover {
     color: #ddd;
+}
+
+/*BANNER*/
+.container-fluid{
+    position: relative;
+}
+.text-banner{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--primaryWhiteNeutral);
+    text-align: center;
+}
+.text-banner h1{
+    font-size: clamp(1.5em, 7vw, 6rem)
+}
+.text-banner p{
+    font-size: clamp(0.5em, 3vw, 2em)
 }
