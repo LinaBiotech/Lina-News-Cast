@@ -26,7 +26,6 @@
     --redVibrant: #C42507;
     --yellowVibrant: #FEC715;
 
-    --font-letter: "Hedvig Letters Serif"
 }
 
 body{
@@ -82,6 +81,12 @@ body{
 /*BANNER*/
 .container-fluid{
     position: relative;
+    height: clamp(300px, 60vh, 700px);
+}
+.container-fluid img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
 }
 .text-banner{
     position: absolute;
@@ -92,8 +97,64 @@ body{
     text-align: center;
 }
 .text-banner h1{
-    font-size: clamp(1.5em, 7vw, 6rem)
+    font-size: clamp(5em, 7vw, 7rem)
 }
 .text-banner p{
-    font-size: clamp(0.5em, 3vw, 2em)
+    font-size: clamp(1.5em, 3vw, 2em)
+}
+
+
+/*SECTION - ÚLTIMO LANÇAMENTO*/
+#ultimo-lancamento{
+    background: radial-gradient(circle at top, #6e8fb5, #4f6d96);
+    margin: 20px 0;
+    padding: 60px 20px;
+}
+.ultimo-lancamento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.titulo-section{
+    text-align: center;
+    font-size: clamp(28px, 4vw, 42px);
+    font-weight: 900;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    color: var(--gray-100);
+    font-family: 'Sora', sans-serif;
+    
+}
+.iframe-wrapper {
+    width: 100%;
+    border-radius: 16px;
+    max-width: 900px;
+    height: clamp(200px, 28vw, 352px); 
+    margin: 20px 0;
+}
+.iframe-wrapper iframe{
+    width: 100%;
+    height: 100%;
+}
+iframe:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+.btn-edicoes{
+    background: #174080;
+    color: var(--secondaryWhiteNeutral);
+    font-family: 'Sora', sans-serif;
+    line-height: 50px;
+    border-bottom: 5px solid #0a1d3b; ;
+    opacity: 0.8;
+    transition: 0.3s;
+    font-size: clamp(16px, 2vw, 24px);
+}
+.btn-edicoes:hover{
+    background: #153974;
+    transform: scale(1.1);
+    color: var(--secondaryWhiteNeutral);
+    opacity: 1;
 }
