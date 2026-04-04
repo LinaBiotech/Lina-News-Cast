@@ -198,3 +198,17 @@ iframe:hover {
   }
 }
 
+
+/* section sobre */
+
+#newscast {
+    padding: 20px 20px;
+}
+
+#newscast img {
+    transition: 0.3s;
+}
+
+#newscast img:hover {
+    transform: scale(1.03);
+}
