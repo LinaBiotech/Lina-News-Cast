@@ -212,3 +212,43 @@ iframe:hover {
 #newscast img:hover {
     transform: scale(1.03);
 }
+
+
+/* FOOTER */
+#footer {
+    background: linear-gradient(90deg, var(--blueDark-700), var(--blueDarker-800));
+    color: var(--primaryWhiteNeutral);
+    padding: 50px 20px 20px;
+    margin-top: 40px;
+}
+
+/* Títulos */
+#footer h4 {
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* footer links */
+.link-credito a{
+    color: var(--primaryWhiteNeutral); /* branco */
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.link-credito:hover a{
+    color: var(--blueLight-300); /* mantém seu padrão do site */
+    text-decoration: underline;
+}
+.social-icons a {
+    color: var(--primaryWhiteNeutral);
+    font-size: 1.5rem;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.social-icons a:hover {
+    color: var(--blueLight-300);
+    transform: scale(1.2);
+}
+
+
