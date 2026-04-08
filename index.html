@@ -11,6 +11,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 
+        <!--Hedvig Letters Serif-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Press+Start+2P&family=Sora:wght@100..800&display=swap" rel="stylesheet">
+
         <!--Font Awesome-->
         <script src="https://kit.fontawesome.com/ffda54e860.js" crossorigin="anonymous"></script>
         
@@ -21,7 +26,7 @@
 
 
         <link href="css/style.css" rel="stylesheet" >
-        <script src="js/script.js"></script>
+        <script src="js/script.js" defer></script>
 
         <!--html5shiv-->
         <!--[if lt IE 9]>
@@ -31,9 +36,9 @@
     </head>
 
     <body>
-        <!-- inicio nav-bar -->
         <header>
-            <nav class="navbar navbar-expand-lg navbar-menu justify-content-between">
+            <!-- inicio nav-bar -->
+            <nav class="navbar navbar-dark navbar-expand-lg navbar-menu justify-content-between">
                 <div class="container">
                 
                     <a class="navbar-brand" href="#">NewsCast</a>
@@ -62,8 +67,156 @@
                     </div>
                 </div>
             </nav> 
+            <!-- fim nav-bar -->
         </header>
+        <main>    
+            <!-- inicio banner -->
+            <div class="container-fluid p-0">
+                <img src="src/banner.jpg" alt="Lina NewsCast" class="d-block w-100">
+                <div class="text-banner">
+                    <h1>NEWS CAST</h1>
+                    <p>O seu <i class="fa-solid fa-podcast"></i> podcast da biotecnologia!</p>
+                </div>
+            </div>
+            <!-- fim banner -->
+
+            <!--inicio main content-->
+            <section id="ultimo-lancamento">
+                <div class="container ultimo-lancamento">
+                    <h1 class="titulo-section titulo-lancamento">ÚLTIMO LANÇAMENTO!</h1>
+                    <div class="iframe-wrapper">
+                         <iframe 
+                            data-testid="embed-iframe" 
+                            src="https://open.spotify.com/embed/episode/3Q9crsFJmSv2LLbRihV8st?utm_source=generator" 
+                            frameBorder="0" 
+                            allowfullscreen="" 
+                            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                    
+                    <a href="#" class="btn btn-edicoes"> Edições Anteriores</a>
+                </div>
+            </section>
+            <!--fim main content-->
+
+            <!-- INÍCIO NEWSCAST -->
+            <section id="newscast">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+
+                        <!-- caixa de texto da newscast -->
+                        <div class="col-lg-6 col-md-12">
+                            <h2 class="titulo-section">Sobre o News Cast</h1>
+                            <p>
+                                O News Cast é um podcast voltado para a área de biotecnologia,
+                                trazendo conteúdos atualizados, entrevistas e discussões sobre
+                                ciência, inovação e mercado.
+                            </p>
+                            <p>
+                                Nosso objetivo é tornar a ciência mais acessível, conectando
+                                estudantes, profissionais e curiosos através de episódios
+                                dinâmicos e informativos.
+                            </p>
+                            <a href="https://substack.com/@linanewscast?utm_source=share&utm_medium=android&r=7vfg2x&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGn7wU9rqLq2JxoXwdDrK4rTzmv8IivvIdAjnhZSFUVep2ehskNQV01bT6FvPY_aem_nX-FAP9Hj6LjWK7X4EZgYw&utm_id=97760_v0_s00_e0_tv3_a1denni23d5mll_tp1" target="_blank" class="btn btn-edicoes mt-3">
+                                Conheça mais!
+                            </a>
+                        </div>
+
+                        <!-- imgs -->
+                    <div class="col-lg-6 col-md-12">
+                        <div class="row g-2 align-items-center">
+                            <div class="col-6">
+                                <img src="src/newsletter0.jpg" class="img-fluid rounded" alt="">
+                            </div>
+                            <div class="col-lg-6 d-flex flex-column gap-2">
+                                <img src="src/newsletter1.jpg" class="rounded" alt="">
+                                <img src="src/newsletter2.jpg" class="rounded" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <!-- FIM SECTION NEWSCAST -->
+
+            <!--início section newsletter-->
+            <section id="newsletter">
+                <div class="container">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="row g-2 align-items-center">
+                                <div class="col-lg-6">
+                                    <img src="src/newsletter0.jpg"  class="img-fluid rounded" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img src="src/newsletter1.jpg"  class=" rounded" alt="">
+                                    <img src="src/newsletter2.jpg"  class=" rounded" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h2 class="titulo-section">Newsletter</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim, sit perferendis inventore molestiae esse debitis necessitatibus cum architecto, voluptates voluptatem magnam non. Fugit obcaecati officia natus vero labore beatae.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit enim, sit perferendis inventore molestiae esse debitis necessitatibus cum architecto, voluptates voluptatem magnam non. Fugit obcaecati officia natus vero labore beatae.</p>
+                            <p></p>
+                            <a href="#">Clique aqui e acesse nossa newsletter!!</a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+            <!--fim section newsletter-->
+        </main>  
+
+        <footer id="footer">
+        <div class="container">
+            <div class="row g-4 align-items-start">
+            <!-- sobre -->
+            <div class="col-lg-4 col-md-12">
+                <h3 class="footer-title">NewsCast</h3>
+                <p>
+                Seu podcast sobre biotecnologia, inovação e ciência.
+                Conteúdos atualizados para quem quer se manter por dentro do futuro.
+                </p>
+            </div>
+
+            <!-- contatos -->
+            <div class="col-lg-4 col-md-6 footer-contato">
+                <h4>Contato</h4>
+                <p>linanewscast@gmail.com</p>
+
+                <div class="social-icons">
+                <a href="https://open.spotify.com/" target="_blank"><i class="bi bi-spotify"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="#" target="_blank"><i class="bi bi-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- créditos -->
+            <div class="col-lg-4 col-md-6 link-credito"">
+                <h4>Créditos</h4>
+                <p>
+                Desenvolvido por:
+                <a href="https://www.linkedin.com/in/fernando-ares-6049842a9/" target="_blank">Fernando Ares Guerra Capestrani</a>
+                </p>
+
+                <p>
+                Desenvolvido por:
+                <a href="https://www.linkedin.com/in/matheus-saisse-bb6188215/" target="_blank">Matheus Saisse Da Silva Santos</a>
+                </p>
+            </div>
+            </div>
+
+            <!-- bottom -->
+            <div class="footer-bottom text-center mt-4">
+            <p>© 2026 LinaNewsCast - Todos os direitos reservados</p>
+            </div>
+        </div>
+
+        </footer>
+
         <!-- Bootstrap JS -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    </body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+            </body>
 </html>
