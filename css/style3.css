@@ -1,0 +1,29 @@
+/* header das dúvidas */
+.header-prog {
+    background: linear-gradient(45deg, var(--blueLight-300), var(--blueDark-700));
+    padding: 15px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.header-prog:hover {
+    opacity: 0.9;
+}
+
+.card-prog .p-4 {
+    background: white;
+    border-radius: 0 0 10px 10px;
+    color: var(--gray-700);
+}
+
+.header-prog i {
+    transition: 0.3s;
+}
+
+.link-apoio {
+    color: var(--blueDark-700);
+    font-weight: 600;
+    text-decoration: none;
+    position: relative;
+    transition: 0.3s;
+}
