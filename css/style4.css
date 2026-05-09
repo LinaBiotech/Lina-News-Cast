@@ -1,0 +1,42 @@
+.sobre-section {
+    background: var(--primaryWhiteNeutral);
+}
+
+.titulo-sobre {
+    font-family: 'Sora', sans-serif;
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+}
+
+.subtitulo-section {
+    color: var(--gray-700);
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+.img-sobre {
+    max-width: 400px;
+    transition: 0.3s;
+}
+
+.img-sobre:hover {
+    transform: scale(1.05);
+}
+
+/* status */
+.status h3 {
+    font-size: 2.5rem;
+    color: var(--blueDark-700);
+    font-family: 'Sora', sans-serif;
+}
+
+.status p {
+    color: var(--gray-700);
+}
+
+.destaque-lina {
+    background: var(--secondaryWhiteNeutral);
+    padding: 10px;
+    border-left: 4px solid var(--blueDark-700);
+    font-weight: 500;
+}

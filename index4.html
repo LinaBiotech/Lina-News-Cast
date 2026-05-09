@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
+<html lang="en">
+<head>
         <link rel="icon" href="">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,18 +25,19 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
 
-        <link href="css/style.css" rel="stylesheet" >
+        <link href="css/style.css"  rel="stylesheet">
+        <link href="css/style2.css" rel="stylesheet">
+        <link href="css/style3.css" rel="stylesheet" >
+        <link href="css/style4.css" rel="stylesheet">
         <script src="js/script.js" defer></script>
 
         <!--html5shiv-->
         <!--[if lt IE 9]>
             <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
         <![endif]-->
-
     </head>
-
-    <body>
-        <header>
+<body>
+    <header>
             <!-- inicio nav-bar -->
             <nav class="navbar navbar-dark navbar-expand-lg navbar-menu justify-content-between">
                 <div class="container">
@@ -68,75 +69,57 @@
                 </div>
             </nav> 
             <!-- fim nav-bar -->
-        </header>
-        <main>    
-            <!-- inicio banner -->
-            <div class="container-fluid p-0">
-                <img src="src/banner.jpg" alt="Lina NewsCast" class="d-block w-100">
-                <div class="text-banner">
-                    <h1>NEWS CAST</h1>
-                    <p>O seu <i class="fa-solid fa-podcast"></i> podcast da biotecnologia!</p>
-                </div>
-            </div>
-            <!-- fim banner -->
+     </header>
+     <main>
 
-            <!--inicio main content-->
-            <section id="ultimo-lancamento">
-                <div class="container ultimo-lancamento">
-                    <h1 class="titulo-section titulo-lancamento">ÚLTIMO LANÇAMENTO!</h1>
-                    <div class="iframe-wrapper">
-                         <iframe data-testid="embed-iframe" 
-                         style="border-radius:12px" 
-                         src="https://open.spotify.com/embed/episode/6ZcS40HyCUH6VvHWs1hKeo?utm_source=generator" width="100%" height="352" 
-                         frameBorder="0" 
-                         allowfullscreen="" 
-                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                         loading="lazy"></iframe>
-                    </div>
-                    
-                    <a href="index2.html" class="btn btn-edicoes"> Edições Anteriores</a>
-                </div>
-            </section>
-            <!--fim main content-->
+    <!-- sobre nos -->
+<section class="sobre-section py-5">
+  <div class="container">
+    <div class="row align-items-center">
 
-            <!--início section newsletter-->
-            <section id="newsletter">
-                <div class="container">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="row g-2 align-items-center">
-                                <div class="col-lg-6">
-                                    <img src="src/newsletter0.jpg"  class="img-fluid rounded" alt="">
-                                </div>
-                                <div class="col-lg-6">
-                                    <img src="src/newsletter1.jpg"  class=" rounded" alt="">
-                                    <img src="src/newsletter2.jpg"  class=" rounded" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <h2 class="titulo-section">NewsCast</h2>
-                            <p>Trata-se de uma iniciativa de divulgação científica focada em democratizar o conhecimento sobre Biotecnologia e combater a desinformação (fake news) na área. O projeto busca traduzir temas complexos do campo científico para uma linguagem acessível e envolvente, aproximando a universidade da sociedade em geral.</p>
-                            <p>O projeto utilizará quatro canais de comunicação complementares para alcançar um público amplo e diverso:
-                            <ul>
-                                <li>Podcast;</li>
-                                <li>Newsletter;</li>
-                                <li>Site;</li>
-                                <li>Instagram.</li>
-                            </ul>
-                            
-                            <a href="index2.html" class="btn btn-edicoes">
-                                Acessar Newsletter
-                            </a>
-                        </div>
-                    </div>
-                    
-                </div>
-            </section>
-            <!--fim section newsletter-->
-        </main>  
+      <!-- imagem -->
+      <div class="col-md-6 position-relative imagem-lina my-4 text-center">
+          <img src="assets/WhatsApp Image 2026-04-04 at 17.11.02.jpeg" class="img-sobre img-fluid rounded" alt="NewsCast">
+      </div>
 
-        <footer id="footer">
+      <!-- texto -->
+      <div class="col-md-6">
+    <h2 class="titulo-sobre">Sobre o NewsCast</h2>
+
+    <p class="subtitulo-section">
+        O NewsCast é um podcast voltado para a divulgação científica na área da Biotecnologia, criado com o objetivo de aproximar a ciência do público de forma acessível, dinâmica e informativa.
+    </p>
+
+    <p class="subtitulo-section">
+        O projeto aborda temas atuais relacionados à inovação, saúde, genética, sustentabilidade e avanços tecnológicos, sempre buscando traduzir conteúdos científicos complexos para uma linguagem simples e envolvente.
+    </p>
+
+    <p class="subtitulo-section">
+        Além dos episódios em áudio, o NewsCast também utiliza diferentes plataformas digitais para ampliar o alcance da informação científica e incentivar o pensamento crítico sobre temas relevantes da atualidade.
+    </p>
+
+    <p class="subtitulo-section">
+        A iniciativa busca fortalecer a conexão entre universidade e sociedade, promovendo conhecimento de qualidade e combatendo a desinformação por meio da comunicação científica acessível.
+    </p>
+</div>
+
+    <!-- status -->
+    <div class="row text-center mt-5 status">
+      <div class="col-md-4">
+        <h3>2</h3>
+        <p>Episódios publicados</p>
+      </div>
+
+      <div class="col-md-4">
+        <h3>2026</h3>
+        <p>Início do projeto</p>
+      </div>
+    </div>
+  </div>
+</section>
+     </main>
+
+     <footer id="footer">
         <div class="container">
             <div class="row g-4 align-items-start">
             <!-- sobre -->
@@ -161,7 +144,7 @@
             </div>
 
             <!-- créditos -->
-            <div class="col-lg-4 col-md-6 link-credito">
+            <div class="col-lg-4 col-md-6 link-credito"">
                 <h4>Créditos</h4>
                 <p>
                 Desenvolvido por:
@@ -180,10 +163,8 @@
             <p>© 2026 LinaNewsCast - Todos os direitos reservados</p>
             </div>
         </div>
-
         </footer>
-
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
-            </body>
+</body>
 </html>

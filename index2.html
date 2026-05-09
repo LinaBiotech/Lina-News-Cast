@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
+<html lang="en">
+<head>
         <link rel="icon" href="">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +25,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
 
 
-        <link href="css/style.css" rel="stylesheet" >
+        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style2.css" rel="stylesheet">
         <script src="js/script.js" defer></script>
 
         <!--html5shiv-->
@@ -35,7 +36,7 @@
 
     </head>
 
-    <body>
+<body>
         <header>
             <!-- inicio nav-bar -->
             <nav class="navbar navbar-dark navbar-expand-lg navbar-menu justify-content-between">
@@ -69,73 +70,47 @@
             </nav> 
             <!-- fim nav-bar -->
         </header>
-        <main>    
-            <!-- inicio banner -->
-            <div class="container-fluid p-0">
-                <img src="src/banner.jpg" alt="Lina NewsCast" class="d-block w-100">
-                <div class="text-banner">
-                    <h1>NEWS CAST</h1>
-                    <p>O seu <i class="fa-solid fa-podcast"></i> podcast da biotecnologia!</p>
+    <main>
+<section class="edicoes">
+    <h2 class="titulo-section">Edições Anteriores</h2>
+    <div class="container">
+        <div class="row g-4">
+            <!-- CARD EPISÓDIO -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-episodio h-100">
+                    <div class="ratio ratio-16x9">
+                        <img src="assets/ep1.jpeg" alt="Capa do Episódio #01" class="card-img-top">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CODÓN #01</h5>
+                        <p class="card-text">
+                            AUG-Biotecnologia Farmacêutica e Mulheres na Ciência.
+                        </p>
+                        <a href="https://open.spotify.com/episode/3Q9crsFJmSv2LLbRihV8st?si=ff7730b6fdfb4d6e" target="_blank" class="btn btn-edicoes">Ouvir completo</a>
+                    </div>
                 </div>
             </div>
-            <!-- fim banner -->
 
-            <!--inicio main content-->
-            <section id="ultimo-lancamento">
-                <div class="container ultimo-lancamento">
-                    <h1 class="titulo-section titulo-lancamento">ÚLTIMO LANÇAMENTO!</h1>
-                    <div class="iframe-wrapper">
-                         <iframe data-testid="embed-iframe" 
-                         style="border-radius:12px" 
-                         src="https://open.spotify.com/embed/episode/6ZcS40HyCUH6VvHWs1hKeo?utm_source=generator" width="100%" height="352" 
-                         frameBorder="0" 
-                         allowfullscreen="" 
-                         allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
-                         loading="lazy"></iframe>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card card-episodio h-100">
+                    <div class="ratio ratio-16x9">
+                        <img src="assets/WhatsApp Image 2026-05-09 at 18.16.13 (1).jpeg" alt="Capa do Episódio #02" class="card-img-top">
                     </div>
-                    
-                    <a href="index2.html" class="btn btn-edicoes"> Edições Anteriores</a>
-                </div>
-            </section>
-            <!--fim main content-->
-
-            <!--início section newsletter-->
-            <section id="newsletter">
-                <div class="container">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-lg-6 col-md-12">
-                            <div class="row g-2 align-items-center">
-                                <div class="col-lg-6">
-                                    <img src="src/newsletter0.jpg"  class="img-fluid rounded" alt="">
-                                </div>
-                                <div class="col-lg-6">
-                                    <img src="src/newsletter1.jpg"  class=" rounded" alt="">
-                                    <img src="src/newsletter2.jpg"  class=" rounded" alt="">
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-12">
-                            <h2 class="titulo-section">NewsCast</h2>
-                            <p>Trata-se de uma iniciativa de divulgação científica focada em democratizar o conhecimento sobre Biotecnologia e combater a desinformação (fake news) na área. O projeto busca traduzir temas complexos do campo científico para uma linguagem acessível e envolvente, aproximando a universidade da sociedade em geral.</p>
-                            <p>O projeto utilizará quatro canais de comunicação complementares para alcançar um público amplo e diverso:
-                            <ul>
-                                <li>Podcast;</li>
-                                <li>Newsletter;</li>
-                                <li>Site;</li>
-                                <li>Instagram.</li>
-                            </ul>
-                            
-                            <a href="index2.html" class="btn btn-edicoes">
-                                Acessar Newsletter
-                            </a>
-                        </div>
+                    <div class="card-body">
+                        <h5 class="card-title">CODÓN #02</h5>
+                        <p class="card-text">
+                            AUU-Bioquímica Vascular.
+                        </p>
+                        <a href="https://open.spotify.com/episode/6ZcS40HyCUH6VvHWs1hKeo?si=n-KcusZbR4GfV0u-3RsybA" target="_blank" class="btn btn-edicoes">Ouvir completo</a>
                     </div>
-                    
                 </div>
-            </section>
-            <!--fim section newsletter-->
-        </main>  
+            </div> 
 
+        </div>
+    </div>
+</section>
+    </main>
         <footer id="footer">
         <div class="container">
             <div class="row g-4 align-items-start">
@@ -161,7 +136,7 @@
             </div>
 
             <!-- créditos -->
-            <div class="col-lg-4 col-md-6 link-credito">
+            <div class="col-lg-4 col-md-6 link-credito"">
                 <h4>Créditos</h4>
                 <p>
                 Desenvolvido por:
@@ -182,8 +157,7 @@
         </div>
 
         </footer>
-
         <!-- Bootstrap JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
-            </body>
+</body>
 </html>

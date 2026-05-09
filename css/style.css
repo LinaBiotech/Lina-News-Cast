@@ -161,7 +161,6 @@ iframe:hover {
     opacity: 1;
 }
 
-
 /*SECTION - NEWSLETTER*/
 #newsletter{
     text-align: center;
@@ -174,22 +173,20 @@ iframe:hover {
     margin: 10px 10px 0 10px;
     transition: 0.2s;
 }
+
+#newsletter ul li{
+    text-align: left;
+    margin: 10px 0;
+}
+
+
 #newsletter img:hover{
     transform: scale(1.03);
 }
 #newsletter p{
     text-align: justify;
 }
-#newsletter a{
-    text-decoration:none;
-}
-#newsletter a:visited {
-  color:#999999;
-}
-#newsletter a:hover {
-  color:#000000;
-  text-decoration:underline;
-}
+
 @media (max-width: 1024px) {
   #newsletter img {
     height: 130px;
@@ -198,20 +195,6 @@ iframe:hover {
   }
 }
 
-
-/* section sobre */
-
-#newscast {
-    padding: 20px 20px;
-}
-
-#newscast img {
-    transition: 0.3s;
-}
-
-#newscast img:hover {
-    transform: scale(1.03);
-}
 
 
 /* FOOTER */
